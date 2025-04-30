@@ -2,7 +2,7 @@
 Welcome to the London Quest! Come discover the big city of London where the player visits a friend who's there for an exchange. Through this trip, the player encounters different obstacles and if they choose the correct words, they can gather souvenirs and tools to help them through the journey.
 
 ## Description
-The London Quest is an interactive fiction game where the player discovers the city of London, England. In this game, the player interacts with diverse characters and is confronted with English grammar and vocabulary. The English level is designed to be at a B2 level (intermediate level) which is the level desired at the end of high school in Switzerland.
+The London Quest is an interactive fiction game made with [Twine](https://twinery.org/) where the player discovers the city of London, England. In this game, the player interacts with diverse characters and is confronted with English grammar and vocabulary. The English level is designed to be at a B2 level (intermediate level) which is the level desired at the end of high school in Switzerland.
 
 The game includes grammar and vocabulary choices where the choice of the player is either correct or false, but it also includes choices that do not have a correct answer and instead allow the player to receive objects and gifts which could help them on their journey throughout London.
 
@@ -26,7 +26,8 @@ My interactive fiction is available on [itch.io](https://sophwrd.itch.io/the-lon
 
 ## Credits
 - **Concept and Development:** Sophie Ward
-- **Visuals:** The visuals of the interactive fiction were made on [Piskel](https://www.piskelapp.com/) by Sophie Ward
+- **Visuals:** The visuals of the interactive fiction were made with [Piskel](https://www.piskelapp.com/) by Sophie Ward.
+- **Platform:** [Twine](https://twinery.org/) Harlowe 3.3.7 by Leon Arnott.
 - **Sources:**
   - Books:
     - Levasseur, Pamela. Showtime! - Reprendre et perfectionner son anglais - B1/B2. Ellipses, 2022.
@@ -48,4 +49,4 @@ My interactive fiction is available on [itch.io](https://sophwrd.itch.io/the-lon
     - Tourmaline Studio."09 Twine: Sons". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=-ADjSABqGrk&t=256s. Accessed 14 April 2025.
     - Tourmaline Studio."10 Twine: Whitespace". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=8zI5PlcHAMA. Accessed 14 April 2025.
 
-This interactive fiction was developed as part of the "Interactive Fiction" course provided by Isaac Pante (Section for Language and Information Sciences (SLI), Liberal Arts, University of Lausanne, Switzerland)
+This interactive fiction was developed as part of the "Interactive Fiction" course provided by Isaac Pante (Section for Language and Information Sciences (SLI), Liberal Arts, University of Lausanne, Switzerland).
