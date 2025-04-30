@@ -18,7 +18,7 @@ The game includes grammar and vocabulary choices where the choice of the player 
 
 ## How to Play
 1. Download the zip file and then unzip it.
-2. Open the index.html file
+2. Open the index.html file.
 3. Play the interactive fiction!
 
 Or play on itch.io!
