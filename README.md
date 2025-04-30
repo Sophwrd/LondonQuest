@@ -14,7 +14,7 @@ The game includes grammar and vocabulary choices where the choice of the player 
 
 ## Credits
 - ** Context of Game Development **
-- **👥 Sources Extérieures :**
+- ** Sources Extérieures :**
 
 This interactive fiction was developed as part of the "Interactive Fiction" course provided by Isaac Pante (Section for Language and Information Sciences (SLI), Liberal Arts, University of Lausanne, Switzerland)
 
