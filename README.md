@@ -40,3 +40,6 @@ The game includes grammar and vocabulary choices where the choice of the player 
     - Tourmaline Studio."10 Twine: Whitespace". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=8zI5PlcHAMA. Accessed 14 April 2025.
 
 This interactive fiction was developed as part of the "Interactive Fiction" course provided by Isaac Pante (Section for Language and Information Sciences (SLI), Liberal Arts, University of Lausanne, Switzerland)
+
+## Play on itch.io!
+My interactive fiction is available on [itch.io](https://sophwrd.itch.io/the-london-quest)! You can press on **RUN GAME**to play!
