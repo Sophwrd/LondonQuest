@@ -4,7 +4,7 @@ Welcome to the London Quest! Come discover the big city of London where the play
 ## Description
 The London Quest is an interactive fiction game where the player discovers the city of London, England. In this game, the player interacts with diverse characters and is confronted with English grammar and vocabulary. The English level is designed to be at a B2 level (intermediate level) which is the level desired at the end of high school in Switzerland.
 
-The game includes grammar and vocabulary choices where the choice of the player is either correct or false, but it also includes choices that do not have a correct answer and instead allow the player to receive objects and gifts which could help him/her on his/her journey throughout London.
+The game includes grammar and vocabulary choices where the choice of the player is either correct or false, but it also includes choices that do not have a correct answer and instead allow the player to receive objects and gifts which could help them on their journey throughout London.
 
 ## Photos
 <img width="1003" alt="Capture d’écran 2025-04-30 à 11 18 08" src="https://github.com/user-attachments/assets/53a214f5-f94e-4c86-8cd7-c33091a8d6a3" />
