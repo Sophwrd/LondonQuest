@@ -12,6 +12,9 @@ The game includes grammar and vocabulary choices where the choice of the player 
 <img width="896" alt="Capture d’écran 2025-04-30 à 11 17 17" src="https://github.com/user-attachments/assets/6fa228b1-f5b7-4ee6-bced-0225194661bb" />
 
 ### Features
+- **Discover London:** discover different areas of London by enganging with different characters!
+- **Practice your English:** practice your English by making grammar and vocabulary choices!
+- **Unlock scenes:** your choice matters and different choices bring you to new scenes and even might allow you to collect items to help you on your journey! 
 
 ## How to Play
 1. Download the zip file and then unzip it.
