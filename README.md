@@ -27,5 +27,16 @@ The game includes grammar and vocabulary choices where the choice of the player 
     - BigBus Tours. "London Tickets & Passes". BigBus Tours, https://www.bigbustours.com/en/london/london-tour-tickets-and-passes. Accessed 14 April 2025.
     - Jones, Larry. "American slang vs. British slang: terms & phrases compared + their origins!". Preply, 4 Apr. 2025, https://preply.com/en/blog/british-english-vs-american-english-slang-compared/. Accessed 14 April 2025.
     - Wall Street English. "Giving Directions in English". Wall Street English, 2 Dec. 2019, https://www.wallstreetenglish.com/blog/giving-directions-in-english. Accessed 14 April 2025.
+  - YouTube:
+    - Tourmaline Studio."01 Twine: Introduction". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=dl_WlMMTt1s&list=PLFGDV4C3TmMGzuRN9In6MQducHbxqwTWI. Accessed 14 April 2025.
+    - Tourmaline Studio."02 Twine: Macros & Variables". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=HNT7LLk3X7M&t=5s. Accessed 14 April 2025.
+    - Tourmaline Studio."03 Twine: Hooks". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=E6zOa1lEJCE. Accessed 14 April 2025.
+    - Tourmaline Studio."04 Twine: Expressions conditionnelles". Tourmaline Studio, 5 May https://www.youtube.com/watch?v=7WmnCtbKI24. Accessed 14 April 2025.
+    - Tourmaline Studio."05 Twine: Tableaux & Boucles". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=j0ZW8fBqtxA&t=15s. Accessed 14 April 2025.
+    - Tourmaline Studio."06 Twine: Mise en forme visuelle | Macros & CSS". Tourmaline Studio, https://www.youtube.com/watch?v=iFdalCJhYC8&t=1341s. Accessed 14 April 2025.
+    - Tourmaline Studio."07 Twine: Mise en forme visuelle | utiliser des GoogleFonts". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=HTofrRefwHU&t=33s. Accessed 14 April 2025.
+    - Tourmaline Studio."08 Twine: Mise en forme visuelle | Images". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=YEDdbehQL6s&t=10s. Accessed 14 April 2025.
+    - Tourmaline Studio."09 Twine: Sons". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=-ADjSABqGrk&t=256s. Accessed 14 April 2025.
+    - Tourmaline Studio."10 Twine: Whitespace". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=8zI5PlcHAMA. Accessed 14 April 2025.
 
 This interactive fiction was developed as part of the "Interactive Fiction" course provided by Isaac Pante (Section for Language and Information Sciences (SLI), Liberal Arts, University of Lausanne, Switzerland)
