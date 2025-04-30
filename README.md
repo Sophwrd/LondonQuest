@@ -17,7 +17,7 @@ The game includes grammar and vocabulary choices where the choice of the player 
 
 ## Credits
 - **Concept and Development:** Sophie Ward
-- **Visuals:** The visuals of the interactive fiction were made on Piskel (https://www.piskelapp.com/) by Sophie Ward
+- **Visuals:** The visuals of the interactive fiction were made on [Piskel](https://www.piskelapp.com/) by Sophie Ward
 - **Sources:**
   - Books:
     - Levasseur, Pamela. Showtime! - Reprendre et perfectionner son anglais - B1/B2. Ellipses, 2022.
@@ -42,4 +42,4 @@ The game includes grammar and vocabulary choices where the choice of the player 
 This interactive fiction was developed as part of the "Interactive Fiction" course provided by Isaac Pante (Section for Language and Information Sciences (SLI), Liberal Arts, University of Lausanne, Switzerland)
 
 ## Play on itch.io!
-My interactive fiction is available on [itch.io](https://sophwrd.itch.io/the-london-quest)! You can press on **RUN GAME**to play!
+My interactive fiction is available on [itch.io](https://sophwrd.itch.io/the-london-quest)! You can press on **RUN GAME** to play!
