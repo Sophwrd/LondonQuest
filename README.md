@@ -17,11 +17,15 @@ The game includes grammar and vocabulary choices where the choice of the player 
 
 ## Credits
 - **Concept and Development:** Sophie Ward
-- **Visuals:** The visuals of the interactive fiction were made on Piskel by Sophie Ward
+- **Visuals:** The visuals of the interactive fiction were made on Piskel (https://www.piskelapp.com/) by Sophie Ward
 - **Sources:**
   - Books:
     - Levasseur, Pamela. Showtime! - Reprendre et perfectionner son anglais - B1/B2. Ellipses, 2022.
     - Murphy, Raymond. English Grammar in Use. Cambridge University Press, 2019.
     - Raimond, Claude. Guide de conversation en voyage! L'anglais pour les nuls. Editions First, 2024.
+  - Websites:
+    - BigBus Tours. "London Tickets & Passes". BigBus Tours, https://www.bigbustours.com/en/london/london-tour-tickets-and-passes. Accessed 14 April 2025.
+    - Jones, Larry. "American slang vs. British slang: terms & phrases compared + their origins!". Preply, 4 Apr. 2025, https://preply.com/en/blog/british-english-vs-american-english-slang-compared/. Accessed 14 April 2025.
+    - Wall Street English. "Giving Directions in English". Wall Street English, 2 Dec. 2019, https://www.wallstreetenglish.com/blog/giving-directions-in-english. Accessed 14 April 2025.
 
 This interactive fiction was developed as part of the "Interactive Fiction" course provided by Isaac Pante (Section for Language and Information Sciences (SLI), Liberal Arts, University of Lausanne, Switzerland)
