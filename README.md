@@ -11,10 +11,13 @@ The game includes grammar and vocabulary choices where the choice of the player 
 
 <img width="896" alt="Capture d’écran 2025-04-30 à 11 17 17" src="https://github.com/user-attachments/assets/6fa228b1-f5b7-4ee6-bced-0225194661bb" />
 
-## Procedure to Install
+## How to Play
 1. Download the zip file and then unzip it.
 2. Open the index.html file
 3. Play the interactive fiction!
+
+Or play on itch.io!
+My interactive fiction is available on [itch.io](https://sophwrd.itch.io/the-london-quest)! You can press on **RUN GAME** to play!
 
 ## Modules Needed 
 
