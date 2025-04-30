@@ -1,4 +1,6 @@
 # The London Quest
+Welcome to the London Quest! Come discover the big city of London 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+
 An Interactive Fiction Game on a Quest Throughout London
 
 ## I. Description
@@ -14,5 +16,5 @@ The game includes grammar and vocabulary choices where the choice of the player 
 
 ## V. Sources
 
-## VI. Context of Game Development
-This project was developed as part of the "Interactive Fiction" course provided by Isaac Pante (Section for Language and Information Sciences (SLI), Liberal Arts, University of Lausanne, Switzerland)
+## VI. Authors and Context of Game Development
+This interactive fiction was created by Sophie Ward and was developed as part of the "Interactive Fiction" course provided by Isaac Pante (Section for Language and Information Sciences (SLI), Liberal Arts, University of Lausanne, Switzerland)
