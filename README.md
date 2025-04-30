@@ -14,7 +14,9 @@ The game includes grammar and vocabulary choices where the choice of the player 
 
 ## Credits
 - ** Context of Game Development **
-This interactive fiction was created by Sophie Ward and was developed as part of the "Interactive Fiction" course provided by Isaac Pante (Section for Language and Information Sciences (SLI), Liberal Arts, University of Lausanne, Switzerland)
+- **👥 Sources Extérieures :**
+
+This interactive fiction was developed as part of the "Interactive Fiction" course provided by Isaac Pante (Section for Language and Information Sciences (SLI), Liberal Arts, University of Lausanne, Switzerland)
 
 ## Context of Game Development
 This interactive fiction was created by Sophie Ward and was developed as part of the "Interactive Fiction" course provided by Isaac Pante (Section for Language and Information Sciences (SLI), Liberal Arts, University of Lausanne, Switzerland)
