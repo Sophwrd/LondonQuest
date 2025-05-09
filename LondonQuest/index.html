@@ -40,20 +40,22 @@ tw-sidebar{
 (set: $umbrella to 0)
 (set: $group to 0)
 (set: $language to (a:)) &lt;!--I&#39;m here with you section--&gt;
-(set: $bus to (a:))</tw-passagedata><tw-passagedata pid="2" name="About" tags="" position="375,325" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXX=&quot;)[&#39;&#39;About&#39;&#39;]
-(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[This interactive fiction has been developed for the &quot;Fiction Interactive&quot; course taught by  Isaac Pante at the University of Lausanne, Switzerland. In this class, I am given the opportunity to create the interactive fiction of my choice and I have decided to create one with Twine and which is focused on learning English at a B2 level.
+(set: $bus to (a:))
+(set: $indian to 0)
+(set: $fish to 0)</tw-passagedata><tw-passagedata pid="2" name="About" tags="" position="375,325" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXX=&quot;)[&#39;&#39;About&#39;&#39;]
+(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[This interactive fiction was developed for the &quot;Interactive Fiction&quot; course provided by  Isaac Pante (Section for Language and Information Sciences (SLI), Liberal Arts, University of Lausanne, Switzerland). In this course, I am given the opportunity to create the interactive fiction of my choice and I have decided to create one with Twine Harlowe 3.3.7 and which is focused on learning English at a B2 level.
 
-In this interactive fiction, the player goes to London to visit a friend who&#39;s there for an exchange. Through this trip, the player encounters different obstacles and if they choose the correct words, they can gather souvenirs and tools to help them through the journey.
+In this interactive fiction, the player goes to London to visit a friend who is there for an exchange. Through this trip, the player encounters different obstacles and depending on their choices, they can gather souvenirs and tools to help them through the journey. 
 
 I hope you enjoy! 
 
-- Sophie Ward, 3rd year BA at the University of Lausanne
+- Sophie Ward, 3rd year BA at the University of Lausanne, Switzerland.
 ]
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[[[Back to Main Page-&gt;Title]]&lt;br&gt;[[Bibliography-&gt;Sources]]]</tw-passagedata><tw-passagedata pid="3" name="Let&#39;s go" tags="" position="500,200" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[You have passed the crowded security check and are finally able to stop and catch your breath for a moment. 
 
-There are some people who are running, backbags half falling off their shoulders and their large suitcases barely holding up straight with how fast they are going. Others are calmly walking to their destination with a latte in their hands or are standing in front of the information board while their children are restlessly pulling at their trousers or trying to sit on the suitcases. 
+There are some people running, backpacks half falling off of their shoulders and their large suitcases barely holding up straight with how fast they are going. Others are calmly walking to their destination with a latte in their hands or are standing in front of the information board while their children are restlessly pulling at their trousers or trying to sit on the suitcases. 
 
-You look to your left and there&#39;s a Boots and to your right there is a Costa Coffee. 
+You look to your left and there is a Boots and to your right there is a Costa Coffee. 
 
 Well this definitely has the feel of |choice1&gt;[{
     (link: &quot;an airport&quot;)[
@@ -62,7 +64,7 @@ Well this definitely has the feel of |choice1&gt;[{
         an airport.
                 (set: $score to $score + 1)
                 &lt;br&gt;&lt;br&gt;
-                Which one though? There are a few in London and it&#39;s best to know which one you&#39;re in before going anywhere. 
+                Which one though? There are a few in London and it&#39;s best to know which one you are in before going anywhere. 
                 &lt;br&gt;&lt;br&gt;
                 You see an older woman and decide to |choice2&gt;[{
                     (link:&quot;ask her.&quot;)[
@@ -72,11 +74,11 @@ Well this definitely has the feel of |choice1&gt;[{
                     		&lt;br&gt;&lt;br&gt;
                     		&quot;Excuse me, do you know the name of the airport we are in?&quot;
                     		&lt;br&gt;&lt;br&gt;
-                    		She looks up at you momentarily surprised, and smiles.
+                    		She looks up at you momentarily surprised and then smiles.
                     		&lt;br&gt;&lt;br&gt;
                     		&quot;Of course, we&#39;re in Heathrow&quot;
-                            &lt;br&gt;
-                    		At the same time as she prononces these words, an announcement comes through the loudspeakers:
+                            &lt;br&gt;&lt;br&gt;
+                    		At the same time as she prononces these words, there is an announcement that comes through the loudspeakers:
                     		&lt;br&gt;&lt;br&gt;
                     		&quot;Welcome to |choice3&gt;[{
                             (link:&quot;Heathrow Airport&quot;)[
@@ -84,7 +86,7 @@ Well this definitely has the feel of |choice1&gt;[{
                             	(replace: ?choice3)[
                                 	&quot;Heathrow Airport&quot;
          						&lt;br&gt;&lt;br&gt;
-        						You are in Heathrow Airport, one of the few airports in London and you&#39;re here to visit the city. One of your closest friends has come here on &#39;&#39;exchange&#39;&#39; and has mentioned many times about how useful it is to be immersed in an English-speaking country to practice your English. Why not make the most of learning English by visiting the capital of England?
+        						You are in Heathrow Airport, one of the few airports in London and you&#39;re here to visit the city. One of your closest friends has come here on exchange and has mentioned many times about how useful it is to be immersed in an English-speaking country to practice your English. Why not make the most of learning English by visiting the capital of England?
        							&lt;br&gt;&lt;br&gt;
         						You thank the older woman and before you leave, she calls out to you, handing you a small packet of |choice4&gt;[{
                                   (link:&quot;biscuits.&quot;)[
@@ -92,7 +94,7 @@ Well this definitely has the feel of |choice1&gt;[{
                                   		(replace: ?choice4)[
                                         biscuits.
         							&lt;br&gt;&lt;br&gt;
-       								&quot;Here are some (text-colour:green)[biscuits] I&#39;d like you to have. Don&#39;t worry, I haven&#39;t opened them (even though they&#39;re very tasty). If you&#39;re ever faced with a somewhat grumpy person, they can come in handy to soothe people down, but use them wisely! If you offer someone a biscuit, they will likely require the entire packet to be completely soothed&quot;
+       								&quot;Here are some (text-colour:green)[biscuits] I&#39;d like you to have. Don&#39;t worry, I haven&#39;t opened them (even though they&#39;re very tasty). If you&#39;re ever faced with a somewhat grumpy person, they can come in handy to soothe them down, but use them wisely! If you offer someone a biscuit, they will likely require the entire packet to be completely satisfied!&quot;
        								 &lt;br&gt;&lt;br&gt;
         							Thanking her, you take the emergency packet of biscuits and safely tuck them away in your bag.
 									&lt;br&gt;&lt;br&gt;
@@ -137,7 +139,7 @@ Well this definitely has the feel of |choice1&gt;[{
                             	(replace: ?choice3)[
                                 	&quot;Heathrow Airport&quot;
          						&lt;br&gt;&lt;br&gt;
-        						You are in Heathrow Airport, one of the few airports in London and you&#39;re here to visit the city. One of your closest friends has come here on &#39;&#39;exchange&#39;&#39; and has mentioned many times about how useful it is to be immersed in an English-speaking country to practice your English. Why not make the most of learning English by visiting the capital of England?
+        						You are in Heathrow Airport, one of the few airports in London and you&#39;re here to visit the city. One of your closest friends has come here on exchange and has mentioned many times about how useful it is to be immersed in an English-speaking country to practice your English. Why not make the most of learning English by visiting the capital of England?
        							&lt;br&gt;&lt;br&gt;
         						It&#39;s about time you start your trip and begin by finding out how to get to your [[hotel-&gt;taxi1]].
                                 ]
@@ -151,11 +153,9 @@ Well this definitely has the feel of |choice1&gt;[{
 }]
 ]
 
-&lt;!--There are some people who are running, backbags half falling off their shoulders and their large suitcases barely holding up straight with how fast they are going. Others are calmly walking to their destination with a latte in the hands - a latte. You really would like something warm to drink. You squint your eyes to see if there is a logo on their cup and... aha! Costa Coffee!--&gt;</tw-passagedata><tw-passagedata pid="4" name="taxi" tags="" position="650,400" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&lt;!--&#39;&#39;Articles&#39;&#39;--&gt;
-
-The driver looks at you through his rearview mirror and smiles. He begins chatting about his day and you happily chat with him. 
+&lt;!--There are some people who are running, backbags half falling off their shoulders and their large suitcases barely holding up straight with how fast they are going. Others are calmly walking to their destination with a latte in the hands - a latte. You really would like something warm to drink. You squint your eyes to see if there is a logo on their cup and... aha! Costa Coffee!--&gt;</tw-passagedata><tw-passagedata pid="4" name="taxi" tags="" position="650,400" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[The driver looks at you through his rearview mirror and smiles. He begins chatting about his day and you happily chat with him. 
 (click: &quot;happily chat with him&quot;)[
-Suddenly, as you glance down at your phone to send a message to your family that you&#39;ve safely arrived in London, the driver brings up the topic of |choice14&gt;[{
+Suddenly, as you glance down at your phone to send a message to your family that you have safely arrived in London, the driver brings up the topic of |choice14&gt;[{
 (link: &quot;smartphones&quot;)[
 		(set: $choice14 to &quot;smartphones&quot;)
 		(replace: ?choice14)[
@@ -226,7 +226,7 @@ Suddenly, as you glance down at your phone to send a message to your family that
 	]
 }] city&#39;s sights anymore.&quot;
 &lt;br&gt;&lt;br&gt;
-You drop your phone into your lap, feeling awkward about using it when he is complaining about phone usage. Hopefully, he didn&#39;t notice you were on your phone...
+You drop your phone into your lap, feeling awkward about using it when he is complaining about phone usage. Hopefully, he did not notice you were on your phone...
 &lt;br&gt;&lt;br&gt;
 He continues on, &quot;London is |choice4&gt;[{
 	(link: &quot;a&quot;)[
@@ -373,7 +373,7 @@ He continues on, &quot;London is |choice4&gt;[{
 	].
 }]
 ](click: &quot;real life&quot;)[
-Soon enough, you arrive at your destination. 
+Soon enough, you arrive to your destination. 
 
 &quot;Well, here we are! We&#39;ve arrived to your hotel. That&#39;ll be 31 pounds.&quot;
 
@@ -404,10 +404,10 @@ You look through your wallet and take out three |choice11&gt;[{
 	(link: &quot;quid&quot;)[
 		(set: $choice13 to &quot;quid&quot;)
 		(replace: ?choice13)[
-        quid tip.(set: $taxi to $taxi + 1)(set: $score to $score + 1)
+        quid tip. &lt;br&gt;&lt;br&gt;(set: $taxi to $taxi + 1)(set: $score to $score + 1)
         (if: $taxi &gt;=13)[
-        &lt;br&gt;&lt;br&gt;
-		&quot;Thanks very much&quot; the cabman says, &quot;Here&#39;s a little gift for you for listening to me so well during the journey&quot;
+        
+		&quot;Thank you very much&quot; the cabman says, &quot;Here&#39;s a little gift for you for listening to me during the journey&quot;
 &lt;br&gt;&lt;br&gt;
 		He hands you a small(text-colour:green)[ Union Jack keychain]. You smile at him and thank him, placing the keychain into your pocket.
 &lt;br&gt;&lt;br&gt;
@@ -415,7 +415,7 @@ You look through your wallet and take out three |choice11&gt;[{
 
 		(set: $souvenirs to it + (a: &quot;Union Jack Keychain&quot;))
 		]
-		(else:)[&quot;Thanks very much&quot; the cabman says, &quot;Hope you have a nice holiday here&quot;
+		(else:)[&quot;Thank you very much&quot; the cabman says, &quot;Hope you have a nice time here!&quot;
 &lt;br&gt;&lt;br&gt;
 		You smile at him and get out of the car, heading towards the [[hotel entrance-&gt;hotel]].
 		]
@@ -426,19 +426,20 @@ You look through your wallet and take out three |choice11&gt;[{
 		(set: $choice13 to &quot;squid&quot;)
 		(replace: ?choice13)[squid tip.
         &lt;br&gt;&lt;br&gt;
-        &quot;Thanks very much&quot; the cabman says, &quot;Hope you have a nice holiday here&quot;
+        &quot;Thank you very much&quot; the cabman says, &quot;Hope you have a nice time here!&quot;
 &lt;br&gt;&lt;br&gt;
 		You smile at him and get out of the car, heading towards the [[hotel entrance-&gt;hotel]].
         ]
 	].
 }]
-]]</tw-passagedata><tw-passagedata pid="5" name="hotel" tags="" position="775,400" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[As you enter the hotel, you see people sitting comfortably in big armchairs, sipping on their tea and others are eating some snacks and laughing. 
+]]
+&lt;!--Articles--&gt;</tw-passagedata><tw-passagedata pid="5" name="hotel" tags="" position="775,400" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[As you enter the hotel, you see people sitting comfortably in big armchairs, sipping on their tea and others eating some snacks and laughing. 
 
-You head towards the check-in where the receptionist smiles as you approach.
+You head towards the check-in where the receptionist smiles at you as you approach.
 
-&quot;Welcome, how may I help you?&quot; she asks politely.
+&quot;Welcome, how may I help you this evening?&quot; she asks politely.
 
-You&#39;re exhausted from your trip. How are you going to respond?
+You are exhausted from your trip. How are you going to respond?
 
 [[Be a bit rude -&gt;You&#39;re tired, you don&#39;t want to make an effort to talk, you just want to go to your room]]
 [[Stay polite-&gt;Even though you&#39;re tired, you make an effort and smile at her]]]</tw-passagedata><tw-passagedata pid="6" name="Even though you&#39;re tired, you make an effort and smile at her" tags="" position="900,300" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&quot;Hello, I would like to check-in, please.&quot; (set: $score to $score + 1)
@@ -469,15 +470,13 @@ While she looks you up on her computer and prepares your room, you glance at the
         &quot;No, I wasn&#39;t here before.&quot;
         &lt;br&gt;&lt;br&gt;
         &quot;Oh, you &#39;&#39;have never been &#39;&#39;here before? It must be exciting discovering London for the first time ! I am sure you&#39;re going to have an absolutely wonderful time though I&#39;m sure you&#39;ve had a long day and would maybe rather rest. Perhaps I could recommend you a couple of things for tomorrow. Would you like me to give you some recommendations of sights to see?&quot;
-        &lt;br&gt;
+        &lt;br&gt;&lt;br&gt;
         [[You accept]]
         &lt;br&gt;
         [[You decline]]
         ]
 	].
-}]]</tw-passagedata><tw-passagedata pid="7" name="You accept" tags="" position="1050,325" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&lt;!--&#39;&#39;Adjectives&#39;&#39;--&gt;
-
-&quot;Wonderful! Let me see... If you would like |choice1&gt;[{
+}]]</tw-passagedata><tw-passagedata pid="7" name="You accept" tags="" position="1050,325" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&quot;Wonderful! Let me see... If you would like |choice1&gt;[{
 	(link: &quot;some&quot;)[
 		(set: $choice1 to &quot;some&quot;)
 		(replace: ?choice1)[some (set: $score to $score + 1)]
@@ -513,7 +512,7 @@ While she looks you up on her computer and prepares your room, you glance at the
 	(link: &quot;any&quot;)[
 		(set: $choice4 to &quot;any&quot;)
 		(replace: ?choice4)[any]
-	]}] determination to do this because it is quite a bit of walking. I would say it is worth it as the views are |choice5&gt;[{
+	]}] determination because it is quite a bit of walking. I would say it is worth it as the views are |choice5&gt;[{
 	(link: &quot;amazing&quot;)[
 		(set: $choice5 to &quot;amazing&quot;)
 		(replace: ?choice5)[amazing (set: $score to $score + 1)]
@@ -558,7 +557,7 @@ While she looks you up on her computer and prepares your room, you glance at the
 	(link: &quot;many&quot;)[
 		(set: $choice9 to &quot;many&quot;)
 		(replace: ?choice9)[many (set: $score to $score + 1)]
-	]}] different kinds of food to eat here. Do you have preference of what you feel like eating tonight?
+	]}] different kinds of food to eat here. Do you have preference of what you feel like eating tonight?&quot;
     
 Fish and chips or Indian food sounds good right now. You decide to go for [[fish and chips]] / [[Indian food]].]</tw-passagedata><tw-passagedata pid="8" name="You decline" tags="" position="1050,475" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&lt;!--&#39;&#39;Adjectives&#39;&#39;--&gt;
 
@@ -658,7 +657,7 @@ You thank her and head to your room.
 
 The room is nice and while you unpack your bag, your stomach growls. You should perhaps eat something before turning in for the night.
     
-Fish and chips or Indian food sounds good right now. You decide to go for [[fish and chips-&gt;own fish]] / [[Indian food-&gt;own indian]].]</tw-passagedata><tw-passagedata pid="9" name="Indian food 2" tags="" position="1325,325" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&lt;!--&#39;Directions&#39;&#39;--&gt;
+Fish and chips or Indian food sounds good right now. You decide to go for [[fish and chips-&gt;own fish]] / [[Indian food-&gt;own indian]].]</tw-passagedata><tw-passagedata pid="9" name="Indian food 2" tags="" position="1325,325" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[
 
 &lt;img src=&quot;images/indian.png&quot; alt=&quot;Indian&quot; width=30% style=&quot;display: block; margin-left: auto; margin-right: auto;&quot;&gt;
 
@@ -750,9 +749,9 @@ Fish and chips or Indian food sounds good right now. You decide to go for [[fish
         ]
 	]}] building on your right&quot;.
 
-She hands you the(text-colour:green)[ map with all of her annotations]. You thank her and head towards to the[[ fish and chips shop-&gt;next]].
+She hands you the(text-colour:green)[ map with all of her annotations]. You thank her and head towards to the [[Indian restaurarant -&gt;next2]].
 (set: $tools to it + (a: &quot;map with annotations&quot;))
-]</tw-passagedata><tw-passagedata pid="10" name="fish and chips 2" tags="" position="1325,200" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&lt;!--&#39;&#39;Directions&#39;&#39;--&gt;
+]</tw-passagedata><tw-passagedata pid="10" name="fish and chips 2" tags="" position="1325,200" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[
 
 &lt;img src=&quot;images/fish.png&quot; alt=&quot;Fish and Chips&quot; width=30% style=&quot;display: block; margin-left: auto; margin-right: auto;&quot;&gt;
 
@@ -782,7 +781,7 @@ She hands you the(text-colour:green)[ map with all of her annotations]. You than
 		(replace: ?choice2)[
         in front of
         ]
-	]}] until you reach the cinema right next to the Thames. There, you are going to turn |choice3&gt;[{
+	]}] until you reach the cinema right next to the River Thames. There, you are going to turn |choice3&gt;[{
 	(link: &quot;left&quot;)[
 		(set: $choice3 to &quot;left&quot;)
 		(replace: ?choice3)[
@@ -846,9 +845,7 @@ She hands you the(text-colour:green)[ map with all of her annotations]. You than
 
 She hands you the(text-colour:green)[ map with all of her annotations]. You thank her and head towards to the[[ fish and chips shop-&gt;next]].
 (set: $tools to it + (a: &quot;map with annotations&quot;))
-]</tw-passagedata><tw-passagedata pid="11" name="next" tags="" position="1450,275" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&lt;!--&#39;&#39;Modal verbs&#39;&#39;--&gt;
-
-You arrive to the small fish and chips shop. It&#39;s a small, but there are many people and they look very friendly and chatty. 
+]</tw-passagedata><tw-passagedata pid="11" name="next" tags="" position="1450,200" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[You arrive to the small fish and chips shop. It&#39;s a small, but there are many people and they all look very friendly and chatty. 
 
 It |choice1&gt;[{
 	(link: &quot;must&quot;)[
@@ -864,9 +861,9 @@ It |choice1&gt;[{
 		(replace: ?choice1)[
         could
         ]
-	]}] be very good if there&#39;s so many people inside. You walk in.
+	]}] be very good if there are so many people inside. You walk in.
 
-&quot;What can I get you, love?&quot; an older woman says from behind the counter.
+&quot;What can I get you, love?&quot; an older woman asks from behind the counter.
 
 You order a cod and chips.
 
@@ -918,7 +915,7 @@ You explain to her where you come from and that you&#39;re here on holiday to im
 		(replace: ?choice4)[
         should
         ]
-	]}] have left it at home because the weather was predicted sunshine. That&#39;s a warning for you, you |choice5&gt;[{
+	]}] have left it at home because it was forecasted sunshine. That&#39;s a warning for you, you |choice5&gt;[{
 	(link: &quot;should&quot;)[
 		(set: $choice5 to &quot;should&quot;)
 		(replace: ?choice5)[
@@ -1034,7 +1031,7 @@ Tourmaline Studio.&quot;09 Twine: Sons&quot;. Tourmaline Studio, 5 May 2021, htt
 
 Tourmaline Studio.&quot;10 Twine: Whitespace&quot;. Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=8zI5PlcHAMA. Accessed 14 April 2025.
 
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXX=&quot;)[[Back to Main Page-&gt;Title]]</tw-passagedata><tw-passagedata pid="13" name="Day 2" tags="" position="2050,500" size="100,100">It&#39;s your second day in London and you&#39;re ready to visit the major sights the city has to offer. What would be the best way of seeing most sights easily? A bus tour!
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXX=&quot;)[[Back to Main Page-&gt;Title]]</tw-passagedata><tw-passagedata pid="13" name="Day 2" tags="" position="2050,500" size="100,100">It&#39;s your second day in London and you are ready to visit the major sights the city has to offer. What would be the best and easiest way of seeing most of the sights? A bus tour!
 
 This morning you signed up to the Hop-on, Hop-off London Big Bus Tour. A Hop-on, Hop-off London Big Bus Tour means that you are |choice1&gt;[{
 	(link: &quot;free to get on and off the bus when you want&quot;)[
@@ -1048,17 +1045,17 @@ This morning you signed up to the Hop-on, Hop-off London Big Bus Tour. A Hop-on,
 	]}]. 
 
 
-As you are queuing to get on your &#39;&#39;9h45 am&#39;&#39; bus, you think to yourself &quot;Should I sit on the upper deck which has no roof or the lower deck which is inside the bus?&quot;
+As you are queuing to get on your &#39;&#39;9h45 am&#39;&#39; bus, you think to yourself whether you should sit on the upper deck which has no roof or on the lower deck which is inside the bus.
 
 After pondering for a moment which would be better, you decide to sit on the [[upper deck]] / [[lower deck]].</tw-passagedata><tw-passagedata pid="14" name="upper deck" tags="" position="1975,625" size="100,100">&lt;!--Tower Bridge, Tower of London, London Eye, Trafalgar Square, Kensington Palace, Notthing Hill, Paddington station, King&#39;s Cross, Covent Garden, Big Ben--&gt;
 
-When boarding the bus, you are given a small tape player where a pre-recording is ready to guide you through London&#39;s sights as the bus drives you through the busy city. 
+As you board the bus, you are given a small tape player where a pre-recording is ready to guide you through London&#39;s sights as the bus drives you through the busy city. 
 
 The bus starts moving, the wind picks up a bit and the [[recording begins]].
 
 (set: $bus to it + (a: &quot;upper&quot;))</tw-passagedata><tw-passagedata pid="15" name="lower deck" tags="" position="2125,625" size="100,100">&lt;!--Tower Bridge, Tower of London, London Eye, Trafalgar Square, Kensington Palace, Notthing Hill, Paddington station, King&#39;s Cross, Covent Garden, Big Ben--&gt;
 
-When boarding the bus, you are given a small tape player where a pre-recording is ready to guide you through London&#39;s sights as the bus drives you through the busy city. 
+As you board the bus, you are given a small tape player where a pre-recording is ready to guide you through London&#39;s sights as the bus drives you through the busy city. 
 
 The bus starts moving, you look out of the window and the [[recording begins]].
 
@@ -1223,9 +1220,9 @@ It doesn&#39;t really make sense to stay on the bus if you can&#39;t even see an
     
 </tw-passagedata><tw-passagedata pid="17" name="drop" tags="" position="2175,875" size="100,100">You quickly wipe your nose, not thinking too much of it. Then, in the next few seconds, more drops start falling on you.
 
-Frowing, you look up to see dark clouds looming over you. Oh no...
+Frowning, you look up to see dark clouds looming over you. Oh no...
 
-Soon it&#39;s a complete downpour and everyone who is on the upper deck of the bus is trying to get down to the lower deck, but it&#39;s no use. Do you have something to protect you?
+Soon it&#39;s a complete downpour and everyone who was on the upper deck of the bus is trying to get down to the lower deck, but it is no use. Do you have something to protect you?
 (if: $tools contains &quot;umbrella&quot;)[
 |choice1&gt;[{
 (link: &quot;Your umbrella&quot;)[
@@ -1264,7 +1261,7 @@ Soon it&#39;s a complete downpour and everyone who is on the upper deck of the b
 	(replace: ?choice2)[
     Your wallet. 
     &lt;br&gt;&lt;br&gt;
-    Who knew there would be a day you would use your trusty wallet as a cover from the rain. You hold it above your head, trying to convince yourself it&#39;s protecting you at least a little bit
+    Who knew there would be a day you would use your trusty wallet as a cover from the rain. You hold it above your head, trying to convince yourself it is protecting you at least a little bit
     &lt;br&gt;&lt;br&gt;
     ...
     &lt;br&gt;&lt;br&gt;
@@ -1534,20 +1531,20 @@ At eleven-thirty pm your hotel room&#39;s phone rings.
 You pick it up, heart racing. Have they found your phone?
 
 (click:&quot;Have they found your phone&quot;)[
-The bus compagny answers and let you know that they have found your phone and that you must come down to the Big Bus Tours&#39; station tomorrow morning to recuperate it.
+The bus compagny answers and let you know that they have found your phone and that you must come down to the Big Bus Tours&#39; station tomorrow morning to collect it.
 
 Immensely relieved, you prepare your alarm clock so you can be down at the station right when it opens. A weight is lifted off of your shoulders. You close your eyes and go back to [[sleep-&gt;Day 3]].
 ]
 ]</tw-passagedata><tw-passagedata pid="23" name="Day 3" tags="" position="1300,925" size="100,100">(if: $tools contains &quot;umbrella&quot;)[
 You wake up happy and nervous.
 
-It&#39;s time to recuperate your phone, but that if they found someone else&#39;s lost phone and its not actually yours?
+It&#39;s time to collect your phone, but that if they found someone else&#39;s lost phone and its not actually yours?
 
 Shaking your head to clear your thoughts, you [[head down to the Big Bus Tour station]]. Everything will be fine.
 ] (else-if: $tools contains &quot;dry clothes&quot;)[
 You wake up happy and nervous.
 
-It&#39;s time to recuperate your phone, but that if they found someone else&#39;s lost phone and its not actually yours?
+It&#39;s time to collect your phone, but that if they found someone else&#39;s lost phone and its not actually yours?
 
 Shaking your head to clear your thoughts, you [[head down to the Big Bus Tour station]]. Everything will be fine.
 ](else:)[
@@ -1557,8 +1554,8 @@ Should you have bought dry clothes when you were at the mall yesterday instead o
 
 The answer is undoubtedly: yes.
 
-No matter now, it&#39;s  time to recuperate your phone. You, slowly, while blowing your nose and sneezing every few meters, [[head down to the Big Bus Tour station]]. 
-]</tw-passagedata><tw-passagedata pid="24" name="head down to the Big Bus Tour station" tags="" position="1175,925" size="100,100">You arrive there and recuperate your phone.
+No matter now, it&#39;s  time to collect your phone. You slowly, while blowing your nose and sneezing every few meters, [[head down to the Big Bus Tour station]]. 
+]</tw-passagedata><tw-passagedata pid="24" name="head down to the Big Bus Tour station" tags="" position="1175,925" size="100,100">You arrive there and collect your phone.
 
 You sigh in relief. Your phone has all of your contacts, your boarding pass to go home today and all of your memories. Thank goodness they found it.
 
@@ -1570,13 +1567,13 @@ Turning on your phone, you see a [[missed message]] from your friend Emily.
 &lt;!--&#39;&#39;Formal vs informal/slang&#39;&#39;--&gt;
 
 (align:&quot;=&gt;&lt;=&quot;)[
-How&#39;s your first couple of days in the big city of London going?
+How are your first couple of days in the big city of London going?
 
 We&#39;re still good to meet tomorrow for lunch?
 (align:&quot;&lt;==&quot;)+(box:&quot;=X&quot;)[//yesterday 8pm//]
 ]
 
-You remember planning a meet-up on your last day with your friend Emily who&#39;s here on exchange, but since you didn&#39;t have your phone last night, you couldn&#39;t get back to her.
+You remember planning a meet-up on your last day with your friend Emily who is here on exchange, but since you did not have your phone last night, you could not get back to her.
 
 You should get back to her now.
 
@@ -1596,7 +1593,7 @@ Hi Emily!
 		(replace: ?choice1)[
         My apologies
         ]
-	]}] about not getting back to yesterday, I&#39;ve got a lot to catch you up on.
+	]}] about not getting back to you yesterday, I&#39;ve got a lot to catch you up on.
 Yes, let&#39;s still meet today for lunch.
 |choice2&gt;[{
 	(link: &quot;See you soon&quot;)[
@@ -1615,11 +1612,9 @@ Yes, let&#39;s still meet today for lunch.
 (align:&quot;&lt;==&quot;)+(box:&quot;=X&quot;)[//now//]
 [[Time to go meet up with Emily-&gt;lunch]]
 ]
-]</tw-passagedata><tw-passagedata pid="26" name="lunch" tags="" position="925,925" size="100,100">&lt;!--&#39;&#39;Formal vs informal/slang&#39;&#39;
---&gt;
-You finally arrive to your meeting place.
+]</tw-passagedata><tw-passagedata pid="26" name="lunch" tags="" position="925,925" size="100,100">You finally arrive to your meeting place.
 
-You see her sitting inside, looking at the menu. You greet her and start catching up. Sometimes, you need to concentrate quite hard to understand what she is saying because she uses quite a few slang words that you didn&#39;t learn when you started learning English.
+You see her sitting inside, looking at the menu. You greet her and start catching up. Sometimes, you need to concentrate quite hard to understand what she is saying because she uses quite a few slang words that you did not learn when you started learning English.
 
 &quot;Let&#39;s order first, then I want to hear all the things you have to tell me!&quot; she excitedly says.
 
@@ -1793,7 +1788,7 @@ Maybe you should [[stay with them]] and wait out the rain so you can continue ex
 		(replace: ?choice8)[
           no care
         ]
-	]}]. I ended up sitting on the top deck and was very happy when suddenly it started to rain! So many people were desperately trying to get inside the bus that most people just got off on the next stop - as did I. Those who were shoving others to get inside the bus got an |choice9&gt;[{
+	]}]. But suddenly it started to rain! So many people were desperately trying to get inside the bus that most people just got off on the next stop - as did I. Those who were shoving others to get inside the bus got an |choice9&gt;[{
 	(link: &quot; earful &quot;)[
 		(set: $choice9 to &quot; earful &quot;)
 		(replace: ?choice9)[
@@ -1830,9 +1825,7 @@ up for it
 I&#39;ll leave a quid down as a tip.
 I have a fiver or a tenner
 Blimey, look at that!
---&gt;</tw-passagedata><tw-passagedata pid="29" name="I&#39;m here with you" tags="" position="675,925" size="100,100">&lt;!--&#39;&#39;British vs American&#39;&#39;--&gt;
-
-&quot;Ohh all of that sounds intense! I&#39;m so happy that you managed to retrieve your phone. That must have been very stressful.&quot;
+--&gt;</tw-passagedata><tw-passagedata pid="29" name="I&#39;m here with you" tags="" position="675,925" size="100,100">&quot;Ohh all of that sounds intense! I&#39;m so happy that you managed to retrieve your phone. That must have been very stressful.&quot;
 
 &quot;|choice1&gt;[{
 	(link: &quot;All is&quot;)[
@@ -1851,8 +1844,8 @@ Blimey, look at that!
     
 &quot;I&#39;m glad and I&#39;m happy you had a good time while discovering the sights and eating good food. Tell me though,&quot; she leans in with a sneaky gleam in her eye. &quot;Do you still use american words or have you finally switched to British English since we were together in English class back at school?&quot;
 &lt;!--if choose american, then have to choose the correct american--&gt;
-You playfully pretend you don&#39;t know what she is talking about and that [[you always have only used British English words]].
-You stick with what you&#39;ve always said: [[you tell her American English is better British English]].</tw-passagedata><tw-passagedata pid="30" name="you always have only used British English words" tags="" position="600,1050" size="100,100">&lt;!--&#39;&#39;British vs American&#39;&#39;--&gt; (set: $language to it + (a: &quot;british&quot;))
+You playfully pretend you do not know what she is talking about and that [[you always have only used British English words]].
+You stick with what you have always said: [[you tell her American English is better British English]].</tw-passagedata><tw-passagedata pid="30" name="you always have only used British English words" tags="" position="600,1050" size="100,100">&lt;!--&#39;&#39;British vs American&#39;&#39;--&gt; (set: $language to it + (a: &quot;british&quot;))
 
 &quot;Very well, then you won&#39;t mind me quickly testing you, would you?&quot; she says mischieviously. &quot;What do you call the &#39;&#39;room that you go to when you need to the toilet&#39;&#39;?&quot;
 
@@ -1990,7 +1983,7 @@ You think for a second and then answer,
 		(replace: ?choice9)[
           on
         ]
-	]}]the week-end, I&#39;m going to test out some new cake and cupcake receipes for my cousin&#39;s birthday. Then, I might start planning on |choice10&gt;[{
+	]}] the week-end, I&#39;m going to test out some new cake and cupcake receipes for my cousin&#39;s birthday. Then, I might start planning on |choice10&gt;[{
 	(link: &quot;having&quot;)[
 		(set: $choice10 to &quot;having&quot;)
 		(replace: ?choice10)[
@@ -2159,7 +2152,7 @@ You think for a second and then answer,
 		(replace: ?choice9)[
           on
         ]
-	]}]the week-end, I&#39;m going to test out some new cake and cupcake receipes for my cousin&#39;s birthday. Then, I might start planning on |choice10&gt;[{
+	]}] the week-end, I&#39;m going to test out some new cake and cupcake receipes for my cousin&#39;s birthday. Then, I might start planning on |choice10&gt;[{
 	(link: &quot;having&quot;)[
 		(set: $choice10 to &quot;having&quot;)
 		(replace: ?choice10)[
@@ -2236,7 +2229,7 @@ You look down at your phone and find your boarding pass.
 &quot;Alright, we&#39;re 2pm right now. Let&#39;s go, you still need to pack and then I can see you off at the airport. [[Let&#39;s head back to your hotel]]&quot;
 ]</tw-passagedata><tw-passagedata pid="33" name="Let&#39;s head back to your hotel" tags="" position="675,1300" size="100,100">You both head back to your hotel and start packing your bags.
 
-Once everything is nicely packed and you&#39;ve assured yourself that you have your |choice1&gt;[{
+Once everything is nicely packed and you have assured yourself that you have your |choice1&gt;[{
 	(link: &quot;passport&quot;)[
 		(set: $choice1 to &quot;passport&quot;)
 		(replace: ?choice1)[
@@ -2424,20 +2417,18 @@ You smile to yourself and think, &quot;London, it was nice knowing you. I&#39;ll
 ] (else:)[
 Sooooo, boarding the plane was a little bit complicated.
 &lt;br&gt;&lt;br&gt;
-First of all, you misunderstood what the stewardess was asking you. You thought she was asking you what snacks you&#39;d like to have on board when she was in fact asking you in which row you are seated. Now, is that a language barrier or did your stomach take over your comprehension skills because it was hungry?
+First of all, you misunderstood what the stewardess was asking you. You thought she was asking you what snacks you would like to have on board when she was in fact asking you in which row you are seated. Now, is that a language barrier or did your stomach take over your comprehension skills because it was hungry?
 &lt;br&gt;&lt;br&gt;
 Either way, it&#39;s probably wise to study some more.
 &lt;br&gt;&lt;br&gt;
-Grammar book open and snack menu in your hand for fuel, you&#39;re ready to put your English skills in action once again when the stewards come down the aisle. However, before then, you  look through your window as the plane takes off into the evening sky. You have the sun setting in the distance and you can see the whole of London and the river Thames.
+Grammar book open and snack menu in your hand for fuel, you are ready to put your English skills in action once again when the stewards come down the aisle. However, before then, you  look through your window as the plane takes off into the evening sky. You have the sun setting in the distance and you can see the whole of London and the River Thames.
 &lt;br&gt;&lt;br&gt;
 You smile to yourself and think, &quot;London, it was nice knowing you. I&#39;ll be back to discover the rest of England and Britain very soon. Once I&#39;ve practiced some more English&quot; you add.
 ]
 
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXX=&quot;)[[The End]]
 
-&lt;!--https://promova.com/english-vocabulary/airport-vocabulary--&gt;</tw-passagedata><tw-passagedata pid="37" name="You accept, happy to talk to people" tags="" position="1700,350" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&lt;!--&#39;&#39;Modal verbs&#39;&#39;--&gt;
-
-You join them and introduce yourself.
+&lt;!--https://promova.com/english-vocabulary/airport-vocabulary--&gt;</tw-passagedata><tw-passagedata pid="37" name="You accept, happy to talk to people" tags="" position="1700,350" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[You join them and introduce yourself.
 
 &quot;I&#39;m Malika&quot; one of the girls says
 &quot;I&#39;m Joséphine&quot; the girl next to her says
@@ -2507,7 +2498,7 @@ You join them and introduce yourself.
         ]
 	]}] give you some tips&quot;
 
-You eat your fish and chips, happily listening to their advice and enjoying the crispy fish and salt and vinegar chips.
+You eat your food, happily listening to their advice.
 
 &quot;By the way, where is Adrian?&quot; Malika suddenly asks.
 
@@ -2558,7 +2549,6 @@ After saying your goodbyes, you head back to the hotel, happy that you decided t
     ]
     ]
 ]
-
 </tw-passagedata><tw-passagedata pid="38" name="You&#39;re tired, you don&#39;t want to make an effort to talk, you just want to go to your room" tags="" position="900,500" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&quot;I want check-in&quot;
 
 The receptionist blinks once, seemingly a little bit surprised by how you spoke to her. She quickly recovers and says,
@@ -2567,7 +2557,7 @@ The receptionist blinks once, seemingly a little bit surprised by how you spoke 
 
 While she looks you up on her computer and prepares your room, you glance at the tourist guides for London on display in front of you. You pick one up and flick through it. There are so many sights to see, but you really just want to go to sleep right now.
 
-&quot;Have you ever been to London before?&quot; the receptionist asks as she sees you flicking through the guide.
+&quot;Have you ever been to London before?&quot; the receptionist asks when she sees you flicking through the guide.
 
 |choice1&gt;[{
 	(link: &quot;No, I haven&#39;t been here before&quot;)[
@@ -2576,7 +2566,7 @@ While she looks you up on her computer and prepares your room, you glance at the
         &quot;No, I haven&#39;t been here before&quot; (set: $score to $score + 1)
         &lt;br&gt;&lt;br&gt;
         &quot;Oh, how exciting! I am sure you&#39;re going to have an absolutely wonderful time though I&#39;m sure you&#39;ve had a long day and would maybe rather rest. Perhaps I could recommend you a couple of things for tomorrow. Would you like me to give you some recommendations of sights to see?&quot;
-        &lt;br&gt;
+        &lt;br&gt;&lt;br&gt;
         [[You accept]]
         &lt;br&gt;
         [[You decline]]
@@ -2588,22 +2578,23 @@ While she looks you up on her computer and prepares your room, you glance at the
 		(replace: ?choice1)[
         &quot;No, I wasn&#39;t here before&quot;
         &lt;br&gt;&lt;br&gt;
-        &quot;Oh, you &#39;&#39;have never been&#39;&#39; here before? It must be exciting discovering London for the first time ! I am sure you&#39;re going to have an absolutely wonderful time though I&#39;m sure you&#39;ve had a long day and would maybe rather rest. Perhaps I could recommend you a couple of things for tomorrow. Would you like me to give you some recommendations of sights to see?&quot;
+        &quot;Oh, you &#39;&#39;have never been&#39;&#39; here before? It must be exciting discovering London for the first time ! I am sure you&#39;re going to have an absolutely wonderful time though I&#39;m sure you&#39;ve had a long day and would maybe rather rest. Perhaps I could recommend you a couple of things for tomorrow. Would you like me to give you some recommendations of a couple of sights to see?&quot;
         &lt;br&gt;&lt;br&gt;
         [[You accept]]
         &lt;br&gt;
         [[You decline]]
         ]
 	]
-}]]</tw-passagedata><tw-passagedata pid="39" name="taxi1" tags="" position="500,400" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[You go outside of the airport and look for the famous black cabs.
-
+}]]</tw-passagedata><tw-passagedata pid="39" name="taxi1" tags="" position="500,400" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[You leave the airport building and look for the famous black cabs. 
+(click: &quot;famous black cabs&quot;)[
 You see the black cabs and a queue of people waiting to get in one.
 
-You join the queue and wait your turn.
+(click:&quot;queue&quot;)[You join the queue and wait for your turn.
 
-Finally when it is your turn, the airport staff waves you over and helps you put your handluggage in the boot. You get into the cab and your journey to your hotel [[begins-&gt;taxi]].]</tw-passagedata><tw-passagedata pid="40" name="fish and chips" tags="" position="1200,200" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&lt;!--&#39;&#39;Questions&#39;&#39;--&gt;
-
-&quot;I think I&#39;d like to try to the fish and chips. I&#39;ve heard how England is famous for them. |choice1&gt;[{
+(click:&quot;turn&quot;)[Finally when it is your turn, the airport staff waves you over and helps you put your hand luggage in the boot. You get into the cab and your journey to your hotel [[begins-&gt;taxi]].]
+]
+]
+]</tw-passagedata><tw-passagedata pid="40" name="fish and chips" tags="" position="1200,200" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[(set: $fish to $fish + 1)&quot;I think I&#39;d like to try to the fish and chips. I&#39;ve heard how England is famous for them. |choice1&gt;[{
 	(link: &quot;You know where fish and chips are?&quot;)[
 		(set: $choice1 to &quot;You know where fish and chips are?&quot;)
 		(replace: ?choice1)[
@@ -2621,9 +2612,7 @@ Finally when it is your turn, the airport staff waves you over and helps you put
         &lt;br&gt;&lt;br&gt;
         &quot;Yes of course. Please give me just a second, I&#39;m just going to [[bring out a map-&gt;fish and chips 2]]&quot;
         ]
-	]}]]</tw-passagedata><tw-passagedata pid="41" name="Indian food" tags="" position="1200,325" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&lt;!--&#39;&#39;Questions&#39;&#39;--&gt;
-
-&quot;I think I&#39;d like to try to Indian food. I&#39;ve heard that there are many Indian restaurants in England. |choice1&gt;[{
+	]}]]</tw-passagedata><tw-passagedata pid="41" name="Indian food" tags="" position="1200,325" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[(set: $indian to $indian + 1)&quot;I think I&#39;d like to try to Indian food. I&#39;ve heard that there are many Indian restaurants in England. |choice1&gt;[{
 	(link: &quot;You know where Indian food are?&quot;)[
 		(set: $choice1 to &quot;You know where Indian food are?&quot;)
 		(replace: ?choice1)[
@@ -2641,9 +2630,8 @@ Finally when it is your turn, the airport staff waves you over and helps you put
         &lt;br&gt;&lt;br&gt;
         &quot;Yes of course. Please give me just a second, I&#39;m just going to [[bring out a map-&gt;Indian food 2]]&quot;
         ]
-	]}]]</tw-passagedata><tw-passagedata pid="42" name="You politely decline, preferring to eat alone" tags="" position="1700,200" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&lt;!--&#39;&#39;Modal verbs&#39;&#39;--&gt;
-
-You politely decline, smiling at them and wave goodbye to them. You prefer to eat alone.
+	]}]]</tw-passagedata><tw-passagedata pid="42" name="You politely decline, preferring to eat alone" tags="" position="1700,200" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[(if:$fish &gt;= 1)[
+You politely decline, smiling and wave goodbye to them. You prefer to eat alone.
 
 Why not take advantage of the nice evening weather to gently start walking back to your hotel and taking the time to look around you?
 
@@ -2660,7 +2648,7 @@ As you slowly make your way back to your hotel, eating your fish and chips along
 		(replace: ?choice1)[
         must
         ]
-    }] can happily people-watch and have an introduction to London&#39;s nightlife. As you walk by, you notice many pubs which look like they |choice2&gt;[{
+    }] can happily people-watch and are introduced to London&#39;s nightlife. As you walk by, you notice many pubs which look like they |choice2&gt;[{
 	(link: &quot;must&quot;)[
 		(set: $choice2 to &quot;must&quot;)
 		(replace: ?choice2)[
@@ -2718,7 +2706,86 @@ As you slowly make your way back to your hotel, eating your fish and chips along
         ]
 	]}] a popular new film that has come out.
     
-    Soon enough you finish your fish and chips and arrive back to the hotel. It&#39;s time to get ready for bed and explore some more of London [[tomorrow-&gt;Day 2]] .]</tw-passagedata><tw-passagedata pid="43" name="sugary" tags="" position="925,1375" size="100,100">&lt;!--&#39;&#39;The 5Ws&#39;&#39;--&gt;
+    Soon enough you finish your fish and chips and arrive back to the hotel. It&#39;s time to get ready for bed and explore some more of London [[tomorrow-&gt;Day 2]].
+] (if:$indian &gt;= 1)[
+You politely decline, smiling and wave goodbye to them. You prefer to eat alone.
+
+Why not take advantage of the nice evening weather to gently start walking back to your hotel and taking the time to look around you?
+
+As you slowly make your way back to your hotel, eating your Butter Chicken and Naan bread along the way, you |choice1&gt;[{
+	(link: &quot;can&quot;)[
+		(set: $choice1 to &quot;can&quot;)
+		(replace: ?can)[
+        can (set: $score to $score + 1)
+        ]
+	]
+    /
+	(link: &quot;must&quot;)[
+		(set: $choice1 to &quot;must&quot;)
+		(replace: ?choice1)[
+        must
+        ]
+    }] can happily people-watch and are introduced to London&#39;s nightlife. As you walk by, you notice many pubs which look like they |choice2&gt;[{
+	(link: &quot;must&quot;)[
+		(set: $choice2 to &quot;must&quot;)
+		(replace: ?choice2)[
+        must (set: $score to $score + 1)
+        ]
+	]
+    /
+	(link: &quot;can&quot;)[
+		(set: $choice2 to &quot;can&quot;)
+		(replace: ?choice2)[
+        can
+        ]
+	]}] have a very good atmosphere as they are many people inside.
+    
+    A group of young men and women are talking loudly, they |choice3&gt;[{
+	(link: &quot;might&quot;)[
+		(set: $choice3 to &quot;might&quot;)
+		(replace: ?choice3)[
+        might (set: $score to $score + 1)
+        ]
+	]
+    /
+	(link: &quot;musn&#39;t&quot;)[
+		(set: $choice3 to &quot;musn&#39;t&quot;)
+		(replace: ?choice3)[
+        musn&#39;t
+        ]
+	]}] have had a little bit too many pints |choice4&gt;[{
+	(link: &quot;already&quot;)[
+		(set: $choice4 to &quot;already&quot;)
+		(replace: ?choice4)[
+        already (set: $score to $score + 1)
+        ]
+	]
+    /
+	(link: &quot;only&quot;)[
+		(set: $choice4 to &quot;only&quot;)
+		(replace: ?choice4)[
+        only
+        ]
+	]}].
+    
+    As you pass the cinema, you see many families entering. There |choice5&gt;[{
+	(link: &quot;must&quot;)[
+		(set: $choice5 to &quot;must&quot;)
+		(replace: ?choice5)[
+        must (set: $score to $score + 1)
+        ]
+	]
+    /
+	(link: &quot;can&quot;)[
+		(set: $choice5 to &quot;can&quot;)
+		(replace: ?choice5)[
+        can
+        ]
+	]}] a popular new film that has come out.
+    
+    Soon enough you finish your Indian food and arrive back to the hotel. It&#39;s time to get ready for bed and explore some more of London [[tomorrow-&gt;Day 2]].
+]
+]</tw-passagedata><tw-passagedata pid="43" name="sugary" tags="" position="925,1375" size="100,100">&lt;!--&#39;&#39;The 5Ws&#39;&#39;--&gt;
 
 You decide to have a look at the |choice1&gt;[{
 (link:&quot;biscuits&quot;)[
@@ -2931,9 +2998,7 @@ Maybe you can get by with yourself and your map. You |choice1&gt;[{
         ]
 	]
  }].
-]</tw-passagedata><tw-passagedata pid="47" name="make note of the directions to get there" tags="" position="1325,525" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&lt;!--&#39;&#39;Directions&#39;&#39;--&gt;
-
- (if: $food contains &quot;fish and chips&quot;)[
+]</tw-passagedata><tw-passagedata pid="47" name="make note of the directions to get there" tags="" position="1325,525" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[ (if: $food contains &quot;fish and chips&quot;)[
  &lt;img src=&quot;images/you_fish.png&quot; alt=&quot;You fish and chips&quot; width=30% style=&quot;display: block; margin-left: auto; margin-right: auto;&quot;&gt;
 So to get there, you must turn |choice1&gt;[{
 	(link: &quot;left&quot;)[
@@ -3158,8 +3223,7 @@ It is already |choice1&gt;[{
         ]
 	]}] your head. It doesn&#39;t matter. You&#39;ve made your decision now and you&#39;re too hungry and tired to change your mind.
     
-    You continue on your way to your destination, [[hoping you get there soon]].]</tw-passagedata><tw-passagedata pid="49" name="hoping you get there soon" tags="" position="1575,450" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[&lt;!--&#39;&#39;Modal verbs&#39;&#39;--&gt;
-You arrive to the small fish and chips shop. There aren&#39;t many clients inside.
+    You continue on your way to your destination, [[hoping you get there soon]].]</tw-passagedata><tw-passagedata pid="49" name="hoping you get there soon" tags="" position="1575,450" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[You arrive to the small fish and chips shop. There aren&#39;t many clients inside.
 
 It |choice1&gt;[{
 	(link: &quot;should&quot;)[
@@ -3229,9 +3293,8 @@ You look over the condiments on your table. There&#39;s salt, ketchup and... vin
         Feeling a bit disappointed and wondering what you could have possibly done to make her grumpy, you wonder if you&#39;ve got anything in your bag you could nibble on.
         &lt;br&gt;&lt;br&gt;
 
-Searching through your bag, you (if: $tools contains &quot;biscuits&quot;)[
-find the packet of biscuits the woman at the airport gave you.
-        &lt;br&gt;&lt;br&gt;
+Searching through your bag, you (if: $tools contains &quot;biscuits&quot;)[find the packet of biscuits the woman at the airport gave you.
+        
         You remember if you can you use it to sooth someone who is in a bad mood. Maybe you could offer them to the waitress and hopefully get a dessert? But remember you can only use them once. Or would you rather keep them for another time? 
         
         &lt;br&gt;&lt;br&gt;
@@ -3244,7 +3307,7 @@ find the packet of biscuits the woman at the airport gave you.
         She looks at them a bit suspiciously, but tries one. Her faces lights up considerably as she munches on her biscuit and she reaches for |choice6&gt;[{
          (link:&quot;another one&quot;)[
          (set: $choice6 to &quot;another one&quot;)
-        (replace: ?choice6)[
+        (replace: ?choice6)[another one.
         &lt;br&gt;
         She talks to you about what a long day she&#39;s had and that she&#39;s quite tired. She ends up finishing the whole packet of biscuits and apologises for snapping at you, offering you  some sticky toffee pudding on the house.
         &lt;br&gt;
@@ -3298,9 +3361,8 @@ find  |choice10&gt;[{
         &lt;br&gt;&lt;br&gt;
         Feeling a bit disappointed and wondering what you could have possibly done to make her grumpy, you think if you&#39;ve got anything in your bag you could nibble on.
         &lt;br&gt;&lt;br&gt;
-        Searching through your bag, you (if: $tools contains &quot;biscuits&quot;)[
-        find the packet of biscuits the woman at the airport gave you.
-        &lt;br&gt;&lt;br&gt;
+        Searching through your bag, you (if: $tools contains &quot;biscuits&quot;)[find the packet of biscuits the woman at the airport gave you.
+        
         You remember if you can you use it to sooth someone who is in a bad mood. Maybe you could offer them to the waitress and hopefully get a dessert? But remember you can only use them once. Or would you rather keep them for another time?
         
         
@@ -3310,11 +3372,11 @@ find  |choice10&gt;[{
         (set: $choice8 to &quot;offer them to the waitress&quot;)
         (replace: ?choice8)[
         offer them to the waitress and hope to get a dessert.
-        &lt;br&gt;
+        &lt;br&gt;&lt;br&gt;
         She looks at them a bit suspiciously, but tries one. Her faces lights up considerably as she munches on her biscuit and she reaches for |choice9&gt;[{
          (link:&quot;another one&quot;)[
          (set: $choice9 to &quot;another one&quot;)
-        (replace: ?choice9)[
+        (replace: ?choice9)[another one.
         &lt;br&gt;
         She talks to you about what a long day she&#39;s had and that she&#39;s quite tired. She ends up finishing the whole packet of biscuits and apologises for snapping at you, offering you  some sticky toffee pudding on the house.
         &lt;br&gt;
@@ -3352,7 +3414,7 @@ find  |choice10&gt;[{
         ]
 ]
 }]
-]</tw-passagedata><tw-passagedata pid="50" name="try it!" tags="" position="1575,275" size="100,100">(if:$umbrella &gt;= 9)[Just as you turn around to go look at the condiments, the woman calls out to you.
+]</tw-passagedata><tw-passagedata pid="50" name="try it!" tags="" position="1575,200" size="100,100">(if:$umbrella &gt;= 9)[Just as you turn around to go look at the condiments, the woman calls out to you.
 
 &quot;Oh before you go,&quot; she reaches under the counter and pulls out an umbrella which she hands to you &quot;Here&#39;s an (text-colour:green)[umbrella]. It&#39;s less of a gift and more like a survival tool. You never know when it might pour down here and hopefully now you won&#39;t get caught out like I did!&quot;
 
@@ -3362,7 +3424,7 @@ You thank her and take the umbrella. (set: $tools to it + (a: &quot;umbrella&quo
 		(replace: ?choice1)[
         try the vinegar on chips.
         &lt;br&gt;&lt;br&gt;
-        As you put your condiments on your food, you hear the lady at the counter happily recognising and greeting almost everyone who enters the shop. She must/will know everyone in this neighbourhood.
+        As you put your condiments on your food, you hear the lady at the counter happily  greeting and recognising almost everyone who enters the shop. She must know everyone in this neighbourhood.
 &lt;br&gt;&lt;br&gt;
 You look over the shop, there are only two tables inside and they&#39;re already taken. Looking outside, you see a few people happily chatting and enjoying their fish and chips. You go outside to join them and eat your fish and chips there.
 &lt;br&gt;&lt;br&gt;
@@ -3413,9 +3475,9 @@ As you go outside, a group of three see you all by yourself and invite you over.
         &lt;br&gt;&lt;br&gt;
         As you put your condiments on your food, you hear the lady at the counter happily recognising and greeting almost everyone who enters the shop. She must know everyone in this neighbourhood.
 &lt;br&gt;&lt;br&gt;
-You look over the shop, there are only two tables inside and they&#39;re already taken. Looking outside, you see a few people happily chatting and enjoying their fish and chips. You go outside to join them and eat your fish and chips there.
+You look over the shop, there are only two tables inside and they are already taken. Looking outside, you see a few people happily chatting and enjoying their fish and chips. You go outside to join them and eat your fish and chips there.
 &lt;br&gt;&lt;br&gt;
-As you go outside, a group of three see you all by yourself and invite you over.
+As you go outside, a group of three sees you all by yourself and invite you over.
 &lt;br&gt;&lt;br&gt;
 [[You politely decline, preferring to eat alone]]&lt;br&gt;
 [[You accept, happy to talk to people]]
@@ -3425,12 +3487,12 @@ As you go outside, a group of three see you all by yourself and invite you over.
 </tw-passagedata><tw-passagedata pid="51" name="play on your phone" tags="" position="1800,1000" size="100,100">You put your hand in your right pocket to search for your phone.
 
 (click:&quot;right&quot;)[
-Huh, okay your phone isn&#39;t in there.
+Huh, okay your phone is not there.
 
 You try your left pocket, your hand digging through the loose coins.
 
 (click:&quot;left&quot;)[
-It&#39;s not there either...
+It is not there either...
 
 A spike of panic hits you. [[Where is your phone?]]
 ]
@@ -3447,7 +3509,7 @@ You happily just continue silently staring out to the rain outside while eavesdr
 You put your hand in your right pocket to search for your phone.
 
 (click:&quot;right&quot;)[
-Huh, okay your phone isn&#39;t in there.
+Huh, okay your phone is not there.
 
 You try your left pocket, your hand digging through loose coins.
 
@@ -3457,7 +3519,7 @@ It&#39;s not there either...
 A spike of panic hits you. Where is your phone?
 
 (click:&quot;Where is your phone&quot;)[
-The person next to you, seeing you&#39;re looking for your phone while the older man patiently waits, offers to give him the time instead. This gives you the opportunity to thoroughly look through your bag for your [[missing phone-&gt;Where is your phone?]].
+The person next to you sees that you are looking for your phone while the older man patiently waits and offers to give him the time himself instead. This gives you the opportunity to thoroughly look through your bag for your [[missing phone-&gt;Where is your phone?]].
 ]
 ]
 ]
@@ -3596,9 +3658,8 @@ You happily starting eating.
         Feeling a bit disappointed and wondering what you could have possibly done to make her grumpy, you wonder if you&#39;ve got anything in your bag you could nibble on.
 
 
-Searching through your bag, you (if: $tools contains &quot;biscuits&quot;)[
-find the packet of biscuits the woman at the airport gave you.
-        &lt;br&gt;&lt;br&gt;
+Searching through your bag, you (if: $tools contains &quot;biscuits&quot;)[find the packet of biscuits the woman at the airport gave you.
+        &lt;br&gt;
         You remember if you can you use it to sooth someone who is in a bad mood. Maybe you could offer them to the waiter and hopefully get a dessert? But remember you can only use them once. Or would you rather keep them for another time? 
         
         You decide to |choice5&gt;[{
@@ -3606,11 +3667,11 @@ find the packet of biscuits the woman at the airport gave you.
         (set: $choice5 to &quot;offer them to the waiter&quot;)
         (replace: ?choice5)[
         offer them to the waiter and hope to get a dessert.
-        &lt;br&gt;
+        &lt;br&gt;&lt;br&gt;
         He looks at them a bit suspiciously, but tries one. His faces lights up considerably as he munches on the biscuit and he reaches for |choice6&gt;[{
          (link:&quot;another one&quot;)[
          (set: $choice6 to &quot;another one&quot;)
-        (replace: ?choice6)[
+        (replace: ?choice6)[another one.
         &lt;br&gt;
         He talks to you about what a long day he&#39;s had and that he&#39;s quite tired. He ends up finishing the whole packet of biscuits and apologises for snapping at you, offering you  some sticky toffee pudding on the house.
         &lt;br&gt;
@@ -3642,6 +3703,133 @@ find |choice10&gt;[{
 Thank you for playing this short interactive fiction! I hope you enjoyed it.
 
 [[Back to the Main Page-&gt;Title]]
+]</tw-passagedata><tw-passagedata pid="56" name="next2" tags="" position="1450,325" size="100,100">(align:&quot;&lt;==&gt;&quot;)+(box:&quot;X&quot;)[You arrive to the Indian restaurant. It&#39;s a small, but there are many people inside and they all look very friendly and chatty. 
+
+It |choice1&gt;[{
+	(link: &quot;must&quot;)[
+		(set: $choice1 to &quot;must&quot;)
+		(replace: ?choice1)[
+        must
+        (set: $umbrella to $umbrella + 1)(set: $score to $score + 1)
+        ]
+	]
+    /
+	(link: &quot;could&quot;)[
+		(set: $choice1 to &quot;could&quot;)
+		(replace: ?choice1)[
+        could
+        ]
+	]}] be very good if there are so many people. You walk in.
+
+&quot;Hi, what can I get you?&quot; an young man asks from behind the counter.
+
+You order a Butter Chicken and Naan Bread.
+
+The young man makes small talk with you while your food is cooking.
+
+&quot;Are you from around here or on holiday? Asking because we have many tourists coming to London at this time of year and I&#39;ve never seen you around here before&quot;
+
+You explain to him where you come from and that you&#39;re here on holiday to improve your English as well as meet your long-time friend who is here on exchange.
+
+&quot;Ahh that&#39;s fantastic! Well, you know, you&#39;re lucky because the weather has been good these past few days. You |choice2&gt;[{
+	(link: &quot;should&quot;)[
+		(set: $choice2 to &quot;should&quot;)
+		(replace: ?choice2)[
+        should
+        (set: $umbrella to $umbrella + 1)(set: $score to $score + 1)
+        ]
+	]
+    /
+	(link: &quot;could&quot;)[
+		(set: $choice2 to &quot;could&quot;)
+		(replace: ?choice2)[
+        could
+        ]
+	]}] be glad you didn&#39;t come here last week because it was pouring down with rain! I was walking my dog, a little Labradoodle, you know the curly, golden haired dogs. I say little dog - it is not really a little dog, but anyway. I was taking my dog on its nightly evening walk, but it started raining. I guess that I |choice3&gt;[{
+	(link: &quot;mustn&#39;t&quot;)[
+		(set: $choice3 to &quot;mustn&#39;t&quot;)
+		(replace: ?choice3)[
+        mustn&#39;t
+        ]
+	]
+    /
+	(link: &quot;couldn&#39;t&quot;)[
+		(set: $choice3 to &quot;couldn&#39;t&quot;)
+		(replace: ?choice3)[
+        couldn&#39;t
+        (set: $umbrella to $umbrella + 1)(set: $score to $score + 1)
+        ]
+	]}] have checked the forecast carefully enough. I thought maybe I |choice4&gt;[{
+	(link: &quot;must&quot;)[
+		(set: $choice4 to &quot;must&quot;)
+		(replace: ?choice4)[
+        must
+        (set: $umbrella to $umbrella + 1)(set: $score to $score + 1)
+        ]
+	]
+    /
+	(link: &quot;should&quot;)[
+		(set: $choice4 to &quot;should&quot;)
+		(replace: ?choice4)[
+        should
+        ]
+	]}] go home as quickly as possible as both my dog and I were getting drenched, but I didn&#39;t want to. We were already too far into our walk. That&#39;s a warning for you, you |choice5&gt;[{
+	(link: &quot;should&quot;)[
+		(set: $choice5 to &quot;should&quot;)
+		(replace: ?choice5)[
+        should
+        (set: $umbrella to $umbrella + 1)(set: $score to $score + 1)
+        ]
+	]
+    /
+	(link: &quot;could&quot;)[
+		(set: $choice5 to &quot;could&quot;)
+		(replace: ?choice5)[
+        could
+        ]
+	]}] always have a small umbrella with you, because you definitely will not want to go back home to get it when you are already half way through your walk. You never know when it |choice6&gt;[{
+	(link: &quot;might&quot;)[
+		(set: $choice6 to &quot;might&quot;)
+		(replace: ?choice6)[
+        might
+        (set: $umbrella to $umbrella + 1)(set: $score to $score + 1)
+        ]
+	]
+    /
+	(link: &quot;must&quot;)[
+		(set: $choice6 to &quot;must&quot;)
+		(replace: ?choice6)[
+        must
+        ]
+	]}] rain!&quot;
+    
+Just as he finishes telling you his story, going into detail how his Labradoodle was covered in mud, and even dared roll into a puddle of mud in front of his house before going in, the chef calls from the back to say your food is ready.
+
+&quot;Here&#39;s your Butter Chicken and Naan bread.&quot; he says handing you your food and points to condiments on the side of the counter. &quot;[[Enjoy!]]&quot; 
+ ]
+</tw-passagedata><tw-passagedata pid="57" name="Enjoy!" tags="" position="1575,325" size="100,100">(if:$umbrella &gt;= 9)[Just as you turn around to go sit down at one of the tables, the young man calls out to you,
+
+&quot;Oh before you go,&quot; he reaches under the counter and pulls out a bright yellow umbrella which he hands to you &quot;Here&#39;s an (text-colour:green)[umbrella], just in case you get caught out like I did! You never know when it might rain!&quot;
+
+Thanking him, you take the umbrella and try to find an empty table to sit down and eat. As you try to look for an empty space, you hear the young man at the counter happily greeting and recognising almost everyone who enters the shop. He must know everyone in this neighbourhood.
+
+You look over the shop, there are five tables inside and they are already taken. Looking outside, you see a few people happily chatting and enjoying their Indian food. You go outside to join them and eat your Indian food there.
+
+As you go outside, a group of three see you all by yourself and invite you over.
+
+[[You politely decline, preferring to eat alone]]
+[[You accept, happy to talk to people]]
+]
+(else:)[
+As you turn around to try to find for an empty space to sit down and eat, you hear the young man at the counter happily greeting and recognising almost everyone who enters the shop. He must/will know everyone in this neighbourhood.
+
+You look over the shop, there are five tables inside and they are already taken. Looking outside, you see a few people happily chatting and enjoying their Indian food. You go outside to join them and eat your Indian food there.
+
+As you go outside, a group of three see you all by yourself and invite you over.
+
+[[You politely decline, preferring to eat alone]]
+[[You accept, happy to talk to people]]
+
 ]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
