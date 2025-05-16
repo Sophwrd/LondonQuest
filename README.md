@@ -47,5 +47,6 @@ Or play on [itch.io](https://sophwrd.itch.io/the-london-quest)! Press on **RUN G
     - Tourmaline Studio."08 Twine: Mise en forme visuelle | Images". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=YEDdbehQL6s&t=10s. Accessed 14 April 2025.
     - Tourmaline Studio."09 Twine: Sons". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=-ADjSABqGrk&t=256s. Accessed 14 April 2025.
     - Tourmaline Studio."10 Twine: Whitespace". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=8zI5PlcHAMA. Accessed 14 April 2025.
+  - Some parts of the code and styling have been slightly revised by : ChatGPT (including GPT-3.5 and limited GPT-4o mini)
 
 This interactive fiction was developed as part of the "Interactive Fiction" course provided by Isaac Pante (Section for Language and Information Sciences (SLI), Liberal Arts, University of Lausanne, Switzerland).
