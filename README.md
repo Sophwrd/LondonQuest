@@ -21,8 +21,7 @@ The game includes grammar and vocabulary choices where the choice of the player 
 2. Open the index.html file.
 3. Play the interactive fiction!
 
-Or play on itch.io!
-My interactive fiction is available on [itch.io](https://sophwrd.itch.io/the-london-quest)! You can press on **RUN GAME** to play!
+Or play on [itch.io](https://sophwrd.itch.io/the-london-quest)! Press on **RUN GAME** to play!
 
 ## Credits
 - **Concept and Development:** Sophie Ward
