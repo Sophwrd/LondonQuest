@@ -36,10 +36,25 @@ Or play on [itch.io](https://sophwrd.itch.io/the-london-quest)! Press on **RUN G
     - Raimond, Claude. Guide de conversation en voyage! L'anglais pour les nuls. Editions First, 2024.
   - Websites:
     - BigBus Tours. "London Tickets & Passes". BigBus Tours, https://www.bigbustours.com/en/london/london-tour-tickets-and-passes. Accessed 14 April 2025.
-    - Jones, Larry. "American slang vs. British slang: terms & phrases compared + their origins!". Preply, 4 Apr. 2025, https://preply.com/en/blog/british-english-vs-american-english-slang-compared/. Accessed 14 April 2025.
-    - Wall Street English. "Giving Directions in English". Wall Street English, 2 Dec. 2019, https://www.wallstreetenglish.com/blog/giving-directions-in-english. Accessed 14 April 2025.
-  - YouTube:
-    - Tourmaline Studio."01 Twine: Introduction". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=dl_WlMMTt1s&list=PLFGDV4C3TmMGzuRN9In6MQducHbxqwTWI. Accessed 14 April 2025.
+    - British Council: Learn English. "Adjectives with '-ing' and '-ed'". British Council: Learn English, https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/adjectives-ing-ed. Accessed 25 May 2025.
+    - British Council: Learn English. "Articles: 'a', 'an', 'the'". British Council: Learn English, https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/articles-a-an-the. Accessed 24 May 2025.
+    - British Council: Learn English. "Comparative adjectives". British Council: Learn English, https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/comparative-superlative-adjectives. Accessed 25 May 2025.
+    - British Council: Learn English. "Future continuous and future perfect". British Council: Learn English, https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/future-continuous-future-perfect. Accessed 26 May 2025.
+    - British Council: Learn English. "Intensifiers: 'so' and 'such'". British Council: Learn English, https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/intensifiers-so-such. Accessed 25 May 2025.
+    - British Council: Learn English. "Modal verbs". British Council: Learn English, https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/modal-verbs. Accessed 26 May 2025.
+    - British Council: Learn English. "Past tense". British Council: Learn English, https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-tense. Accessed 26 May 2025.
+    - British Council: Learn English. "Present perfect". British Council: Learn English, https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-perfect. Accessed 25 May 2025.
+    - British Council: Learn English. "Present perfect: 'just', 'yet', 'still' and 'already'". British Council: Learn English, https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/present-perfect-just-yet-still-already. Accessed 26 May 2025.
+    - British Council: Learn English. "Quantifiers". British Council: Learn English, https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/quantifiers. Accessed 24 May 2025.
+    - British Council: Learn English. "Question forms". British Council: Learn English, https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/question-forms. Accessed 25 May 2025.
+    - British Council: Learn English. "The indefinite article: 'a' and 'an'". British Council: Learn English, https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/indefinite-article. Accessed 24 May 2025.
+    - Cambridge University Press. (n.d) //Just//. Cambridge Dictionary, https://dictionary.cambridge.org/grammar/british-grammar/just. Accessed 24 May 2025.
+    - Jones, Larry. "American slang vs. British slang: terms & phrases compared [+ their origins!]". Preply, 4 Apr. 2025, https://preply.com/en/blog/british-english-vs-american-english-slang-compared/. Accessed 14 April 2025.
+    - Merriem-Webster. (n.d.). "When To Use 'Then' and 'Than'". Merriem-Webster, https://www.merriam-webster.com/grammar/when-to-use-then-and-than. Accessed 25 May 2025.
+    - The Interactive Fiction Community Forum. "Getting external links to open in new tab". IFintfiction.org, https://intfiction.org/t/getting-external-links-to-open-in-new-tab/52293. Accessed 26 May 2025.
+    - Twine Cookbook. "'Left Sidebar': Harlowe (only v2.1.0 or later)". Twine Cookbook, https://twinery.org/cookbook/sidebar_left/harlowe_2/harlowe_sidebar_left.html. Accessed 24 May 2025.
+    - Twine Forum. "Twine 2 using Harlowe, can I remove the back arrow?". Twine Forum, https://twinery.org/forum/discussion/5446/twine-2-using-harlowe-can-i-remove-the-back-arrow. Accessed 14 April 2025.
+    - Wall Street English. "Giving Directions in English". Wall Street English, 2 Dec. 2019, https://www.wallstreetenglish.com/blog/giving-directions-in-english. Accessed 14 April 2025.2025.
     - Tourmaline Studio."02 Twine: Macros & Variables". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=HNT7LLk3X7M&t=5s. Accessed 14 April 2025.
     - Tourmaline Studio."03 Twine: Hooks". Tourmaline Studio, 5 May 2021, https://www.youtube.com/watch?v=E6zOa1lEJCE. Accessed 14 April 2025.
     - Tourmaline Studio."04 Twine: Expressions conditionnelles". Tourmaline Studio, 5 May https://www.youtube.com/watch?v=7WmnCtbKI24. Accessed 14 April 2025.
